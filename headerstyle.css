@@ -1,0 +1,34 @@
+header {
+  background-color: #990000; /* Background color */
+  color: #fff; /* Text color */
+  padding: 20px; /* Padding around header */
+  height: 80px;
+}
+.logo{
+  width: 170px;
+  height:auto;
+  float:left;
+}
+/* Navigation styles */
+nav ul {
+  list-style-type: none; /* Remove bullet points from list */
+  margin: 0;
+  padding: 0;
+  justify-content: end;
+  display: flex;
+  align-items : center;
+}
+
+nav ul li {
+  display: inline; /* Display list items horizontally */
+  margin-right: 20px; /* Spacing between list items */
+}
+
+nav ul li a {
+  text-decoration: none; /* Remove underline from links */
+  color: #fff; /* Link text color */
+}
+
+nav ul li a:hover {
+  text-decoration: underline; /* Add underline on hover */
+}

@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portail</title>
+    <link rel="stylesheet" href="styleportals.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    
+</head>
+
+<body>
+<div class="container">
+        <aside class="sidebar" id="sidebar">
+            <div class="menu">
+            <button class="menu-toggle" id="sidebarToggle">
+        <span></span>
+        <span></span>
+        <span></span>
+    </button>
+            </div>
+            <ul class="sidebar-menu">
+            
+  <li><a href="table.php" >
+  <i class='bx bx-line-chart'></i>
+  <span>Liste</span>
+  </a>
+</li>
+<li><a href="portail.html" class="active" >
+  <i class='bx bx-table'></i>
+    <span>Visualisation</span>
+  </a></li>
+  <li ><a href="download.php">
+  <i class='bx bxs-dashboard' ></i>
+  <span>Demandes</span>
+  </a>
+  </li>
+  <li ><a href="#" >
+  <i class='bx bx-log-out-circle' ></i>
+  <span>Log out</span>
+  </a> </ul>
+        </aside>
+</div>
+        <main class="main-content">
+            <header class="header">
+                <div class="logo">
+                    <img src="img\Logo_AWB.svg.png" alt="Company Logo" class="company-logo">
+                </div>
+            </header>
+            
+            <iframe title="appetence" width="1200" height="700" src="https://app.powerbi.com/reportEmbed?reportId=c1538ecf-cd90-452d-86e0-3178303dfa89&autoAuth=true&ctid=64f09792-213e-4f97-9231-0218b95ec2be" frameborder="0" allowFullScreen="true"></iframe>
+    <script src="button_menu.js" ></script>
+  </body>
+</html>
